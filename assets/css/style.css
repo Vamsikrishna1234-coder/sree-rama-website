@@ -364,36 +364,38 @@ textarea.form-control {
 @media (max-width: 768px) {
   .navbar-logo {
     height: 80px !important;
-    width: 140px !important;
+    width: 150px !important;
     position: static !important;
-    padding-top: 0;
-    padding-left: 0;
-    top: 0;
+   
+    padding-top: 0 !important;
+    display: block;
+  }
+
+  .navbar {
+    height: auto;
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
     align-items: center;
-    margin-bottom: 0px;
   }
-  .navbar{
-    height: 80px;
-  }
+
   .navbar-toggler {
-    font-size: 1.2rem;
-    padding: 0.1rem 0.1rem;
-    margin-top: 0;
+    margin-top: 0 !important;
   }
-}
-.icon-bars,
-.icon-close {
-  font-size: 1.5rem;
-  transition: 0.3s ease;
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
-/* Optional: spacing or hover effects */
-.navbar-toggler {
-  background: none;
-  border: none;
-  outline: none;
-  box-shadow: none;
+.icon-bars,
+.icon-close {
+  font-size: 1.7rem;
+  
 }
+
+
 
 
  /* Home always highlighted in orange */
@@ -5683,5 +5685,6 @@ nav ul li.dropdown > a > i {
   }
   
 }
+
 
 
