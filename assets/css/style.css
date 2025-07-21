@@ -361,7 +361,7 @@ textarea.form-control {
 }
 
 /* === MOBILE: Resize logo and position inline === */
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
   .navbar-logo {
     height: 80px !important;
     width: 150px !important;
@@ -391,7 +391,7 @@ textarea.form-control {
 
 .icon-bars,
 .icon-close {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   
 }
 
@@ -4999,27 +4999,25 @@ img.tact-favicon{
   color: #fff;
   font-size: 1rem;
 }
-@media (max-width: 767px) {
+/* Responsive styles for footer */
+@media (max-width: 991.98px) {
   .footer-bottom-area .row {
     flex-direction: column;
     text-align: center;
   }
 
-  .copyright-text,
-  .designed {
+  .copyright-text {
     text-align: center;
-    justify-content: center;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .designed {
+    text-align: center !important;
+    justify-content: center !important;
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .copyright-text {
-    margin-bottom: 0.5rem;
-  }
-
-  .designed {
     margin-top: 0;
-    padding-left: 0;
   }
 
   .tact-favicon {
@@ -5028,6 +5026,28 @@ img.tact-favicon{
     vertical-align: middle;
   }
 }
+
+
+
+/* Desktop (default) — show inline */
+.line-break {
+  display: inline;
+}
+
+/* Responsive (tablets & mobile) — break into a new line */
+@media (max-width: 991px) {
+  .line-break {
+    display: block;
+  }
+
+  .copyright-text {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+
 
 .innerpage-banner {
 	height: 350px;
