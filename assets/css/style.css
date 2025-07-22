@@ -398,6 +398,8 @@ textarea.form-control {
 
 
 
+
+
  /* Home always highlighted in orange */
   .nav-link.home-active {
     color: #ff6a00 !important;
@@ -563,14 +565,7 @@ textarea.form-control {
     color: orange !important;
   }
 
-.navbar-brand {
-  margin-right: auto;
-  margin-left: 0;
-}
-.navbar-nav {
-  margin-left: auto;
-}
-
+  
 .btn-enquiry {
   background-color: orange;
   border: none;
@@ -5284,10 +5279,9 @@ img.tact-favicon{
 #history{
    color: #000000;
    font-size: 17px;
-   justify-content: center;
    text-align: justify;
    line-height: 1.8;
-   max-width: 700px;
+   align-items: center;
    margin: 0 auto;
    font-weight: normal;
  }
@@ -5720,5 +5714,7 @@ nav ul li.dropdown > a > i {
   display: flex;
   align-items: center;
 }
+
+
 
 

@@ -358,5 +358,5 @@
 	});
 
 	// MixItUp Shorting JS
-	$('.shorting').mixItUp();
+	$('.shorting');
 })(jQuery);
