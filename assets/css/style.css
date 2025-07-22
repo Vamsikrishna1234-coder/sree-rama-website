@@ -563,6 +563,14 @@ textarea.form-control {
     color: orange !important;
   }
 
+.navbar-brand {
+  margin-right: auto;
+  margin-left: 0;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
 .btn-enquiry {
   background-color: orange;
   border: none;
