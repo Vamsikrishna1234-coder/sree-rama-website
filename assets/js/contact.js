@@ -1,4 +1,4 @@
-const scriptURL = "https://script.google.com/macros/s/AKfycbwktuACghwYJdJS80zqVOYZrR74wGcnL0fV85xZp7f3EJg1cUCk1IDGy39X0V-TkoMKIw/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbzwRbw_naBGilGRPp78p_KOTU7EGH31fjo2N-KK_LhLr_4rYTisECsPOYsf002MLblP/exec";
 const form = document.getElementById("contactForm");
 const msg = document.getElementById("responseMsg");
 
@@ -11,6 +11,6 @@ form.addEventListener("submit", e => {
       form.reset();
     })
     .catch(() => {
-      msg.innerHTML = "❌ Failed to submit. Check your script URL and access.";
+      msg.innerHTML = "❌ Failed to submit.";
     });
 });
