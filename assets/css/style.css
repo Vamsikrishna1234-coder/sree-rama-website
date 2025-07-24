@@ -5733,6 +5733,24 @@ nav ul li.dropdown > a > i {
   opacity: 0;
   z-index: 0;
 }
+/* Remove unwanted Bootstrap button styling */
+.navbar-toggler {
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Normalize icon look */
+.icon-bars,
+.icon-close {
+  font-size: 1.8rem;
+  color: #333;
+  border: none !important;
+  background: none !important;
+}
 
 
 
